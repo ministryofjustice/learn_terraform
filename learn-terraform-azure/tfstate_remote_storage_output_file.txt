@@ -1,0 +1,87 @@
+{
+  "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/bill-tstate",
+  "location": "ukwest",
+  "managedBy": null,
+  "name": "bill-tstate",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+{
+  "accessTier": "Hot",
+  "allowBlobPublicAccess": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2020-11-09T16:23:18.922595+00:00",
+  "customDomain": null,
+  "enableHttpsTrafficOnly": true,
+  "encryption": {
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2020-11-09T16:23:19.000636+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2020-11-09T16:23:19.000636+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/5d8bf94e-f520-4d04-b9c5-a3a9f4735a26/resourceGroups/bill-tstate/providers/Microsoft.Storage/storageAccounts/tstate1401",
+  "identity": null,
+  "isHnsEnabled": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "ukwest",
+  "minimumTlsVersion": null,
+  "name": "tstate1401",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://tstate1401.blob.core.windows.net/",
+    "dfs": "https://tstate1401.dfs.core.windows.net/",
+    "file": "https://tstate1401.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://tstate1401.queue.core.windows.net/",
+    "table": "https://tstate1401.table.core.windows.net/",
+    "web": "https://tstate1401.z35.web.core.windows.net/"
+  },
+  "primaryLocation": "ukwest",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "bill-tstate",
+  "routingPreference": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}
+{
+  "created": true
+}
+storage_account_name: tstate1401
+container_name: bill-tstate
+access_key: UAUGZRC9JeqGTpWsWdnrecXc63fQ2sLTOkwhQWPZvK7zeZVSy1PoAhX4MhDStlIIwQgett0gbY5j+rrOX1/+mg==
