@@ -2,6 +2,7 @@ az
 .env*
 .terraform
 be.tfvars
+beconf.tfvars
 *.tfstate*
 *.tfplan
 graph.png
